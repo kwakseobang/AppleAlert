@@ -12,6 +12,7 @@ struct AppleAlertApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.dark) // darkmode 
         }
     }
 }
