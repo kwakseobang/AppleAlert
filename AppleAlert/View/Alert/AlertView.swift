@@ -40,7 +40,9 @@ struct AlertView: View {
               
                 }
                 .sheet(isPresented: $goToSetAlert) {
-                    EmptyView()
+                    NavigationView{
+                        AlertSetView()
+                    }
                 }
                
         }

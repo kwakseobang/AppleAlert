@@ -8,5 +8,5 @@
 import Foundation
 
 class AlertViewModel: ObservableObject {
-    
+    @Published var alert: Alert = .init(hours: 00, minutes: 00)
 }
